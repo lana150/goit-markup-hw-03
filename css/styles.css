@@ -276,6 +276,10 @@ h3 {
   row-gap: 48px;
 }
 
+.portfolio-list-card {
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio-image {
   background: url("path_to_image");
   display: block;
