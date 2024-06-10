@@ -225,6 +225,9 @@ h3 {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+.img {
+  display: block;
+}
 .team-image {
   background: url("path_to_image");
   display: block;
