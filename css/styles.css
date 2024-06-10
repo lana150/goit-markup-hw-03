@@ -206,7 +206,7 @@ h3 {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px; 
+  gap: 24px;
 }
 
 .team-list-color {
@@ -274,10 +274,17 @@ h3 {
 
 .portfolio-image {
   background: url("path_to_image");
-  display: block; 
-  max-width: 100%, 
-  height: auto.
+  display: block;
+  max-width: 100%;
+  height: auto;
   margin: 0 auto;
+}
+
+.portfolio-border {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .portfolio-subtitle {
@@ -296,6 +303,7 @@ h3 {
   color: #434455;
   padding-bottom: 32px;
 }
+
 /* Footer */
 
 .footer {
@@ -323,6 +331,5 @@ h3 {
   color: #f4f4fd;
   padding-bottom: 100px;
   max-width: 264px;
+  margin-top: 16px;
 }
-
-
